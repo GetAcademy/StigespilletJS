@@ -15,4 +15,5 @@ function initModel() {
     ladder[1] = 40;
     ladder[8] = 10;
     ladder[24] = 5;
+    // fyll inn resten selv
 }
