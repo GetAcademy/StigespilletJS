@@ -17,5 +17,7 @@
 1. Lag en knapp for å kaste terningen. Den skal endre verdien i modellen og så oppdatere viewet, slik at man ser den nye verdien. 
 1. Legg inn et felt i modellen for hvor spillbrikken er, og la denne starte på 1. Endre viewet, slik at den tegner opp en spillbrikke, `'⛂'`, i riktig rute. 
 1. Lag en knapp for å flytte brikken ut fra verdien på terningen. Denne skal ta hensyn til stigene. Lag minst tre unit tester, en for stige opp, en for stige ned, og en uten stige. 
-1. 
-
+1. Lag logikk slik at hvis man har kastet terningen, så kan man ikke kaste den på nytt før man har trykket på knappen for å flytte. Og tilsvarende, at hvis man har trykket på knappen for å flytte, så kan man ikke gjøre det igjen før man har trillet terningen igjen. 
+1. Kjenn igjen om spilleren har vunnet og vis en tekst om dette. 
+1. Unit test at følgende terningkast etter hverandre vil føre til at man har vunnet: `[1, 3, 3, 4, 4]`
+1. Legg til støtte for at man kan spille med 1, 2, 3 eller fire spillere og at hver spiller får en egen brikke med en egen farge. Bruk feks. `['green', 'red', 'blue', 'yellow']`.
